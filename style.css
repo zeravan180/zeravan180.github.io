@@ -25,5 +25,10 @@ p{margin:0 0 14px}ul{padding-inline-start:22px;margin:0 0 14px}li{margin:6px 0}
 .btn{display:inline-block;background:linear-gradient(#ffd96a,#f0a91c);color:#3a2300;font-weight:800;text-decoration:none;padding:10px 18px;border-radius:10px}
 .note{background:rgba(255,255,255,.05);border-inline-start:4px solid var(--gold);padding:12px 14px;border-radius:8px}
 .crumbs{font-size:14px;color:var(--muted)}
+.by{font-size:14px;color:var(--muted);margin:-4px 0 18px}
+article h2{margin-top:28px}ol{padding-inline-start:22px;margin:0 0 14px}
+.glist{display:grid;gap:12px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr))}
+.glist a{display:block;background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:14px 16px;text-decoration:none;color:var(--ink)}
+.glist a b{display:block;color:var(--gold);margin-bottom:4px}.glist a span{color:var(--muted);font-size:15px}
 footer{border-top:1px solid var(--line);background:#0b1f19;color:var(--muted);font-size:14px}
 footer .bar{justify-content:space-between}footer a{color:var(--muted)}
