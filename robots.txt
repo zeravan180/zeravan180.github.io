@@ -1,3 +1,8 @@
+# The game app under /chess/ is in Kurdish and shows no ads.
+# The AdSense crawler only needs the English pages of this site.
+User-agent: Mediapartners-Google
+Disallow: /chess/
+
 User-agent: *
 Allow: /
 
